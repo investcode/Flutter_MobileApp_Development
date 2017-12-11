@@ -24,6 +24,8 @@ Flutter made app development easy because it designs the screen using widgets.
 
 Typically a flutter application looks like this
 
+![Flutter Widget Framework](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/Chapter-%200/Widget%20Framework.png)
+
 ## 0.3: A short intro to Stateless and Stateful widget(s)
 
 All widgets are categorized as either Stateful or Stateless widget. We're going to discuss the same in great details however at this moment we can consider Stateless widget as something which draws itself only once, while stateful widgets can redraw itself multiple time based on events like user input and timers.
