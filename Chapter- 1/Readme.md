@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Directionality
       (
-        textDirection: TextDirection.ltr,
+        textDirection: TextDirection.ltr, // left to right direction
         child: new Text("Hello Flutter")
     );
   }
@@ -69,6 +69,35 @@ class MyApp extends StatelessWidget {
 ## 1.3: Hello Flutter Code
 
 To draw a widget, `build(...)` function is called and that's why we overwrite the base class function. Whatever widgets we'll create inside this function will be drawn on screen
+
+## 1.4 Rearrangement of Widgets
+
+The existing code displays the text in the upper top left corner which is undesirable. To write the text in the center of the screen we need another widget called '`Center` which will contain the `Text` Widget as depicted in the picture below
+
+The `build(...)` function after adding the `Center` widget will be changed as
+
+```
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Directionality
+      (
+        textDirection: TextDirection.ltr,
+        child: new Center  // new Widget
+        (
+          child: new Text("Hello Flutter")
+        )
+    );
+  }
+} 
+```
+As a result, the text is displayed at the center of the screen.
+
+## 1.5 That's all for this Chapter
+
+We've seen how to create our first app which displays some basic texts onto the screen. In the next chapter, we'll learn about creating widgets with proper application bar and bodies
+
+
 
 
 
