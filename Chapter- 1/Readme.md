@@ -1,19 +1,20 @@
 # Chapter - 1: Hello Flutter
 
-Let's create the first __Hello Flutter__ Application. By the end of this chapter, we shall be able to display text on the screen.
+Let's create the first __Hello Flutter__ Application. By the end of this chapter, we shall be able to display the texts onto the screen.
 
 ## 1.0: Setup & Installation
 
 First and foremost we need to install flutter SDK and the development environment. There are detailed instructions provided at flutter home page.  Please see the instructions at https://flutter.io/setup/ 
 
-You may use any editor of your choice to write Dart code, however, if you want a proper IDE, the IDE of choice is IntelliJ IDEA CE with Flutter plugin.
+You may use any editor of your choice to write Dart code, however, if you want a proper IDE, I'll recommend IntelliJ IDEA CE with Flutter plugin.
 
-Post setup and installation, the way to create the first app by calling the following'
+Post setup and installation, the way to create the first app by calling the following
 
 ```
 flutter create myapp
 ```
-Please open `lib/main.dart' file and remove all the generated code (if any) to start afresh
+
+It will create a folder called `myapp`. There will be a file called `lib/main.dart` which is where all the code will be written. Please remove all the generated code to start afresh
 
 ## 1.1: The Code Structure
 
@@ -22,18 +23,50 @@ The code structure starts with a `main()` function which loads a widget. For sim
 
 ## 1.2: Hello Flutter 
 
+Everything is a widget in flutter, so Text has to be displayed using what we call `Text widget`. However, before we go ahead and display texts on screen, we need to remember a couple of points about the widgets.
 
-
-Everything is a widget in flutter and displaying Text using a Text widget is no difference. However, before we go ahead and display texts on screen, we need to remember a couple of points about the widgets.
-
-Technically, though not differentiated in flutter, we can consider widgets are of two types. 
-- One which can act as a container and hold different widgets inside it
-- Child widget, which needs a container widget to be present 
+Technically, though not differentiated explicitly in flutter, we can consider widgets are of two types. 
+- Widgets which can act as a container and hold different widgets inside it
+- Child only widget, which needs a container widget as a parent 
  
-The text is a child widget and needs a container widget to run. we'll use the widget 'Directionality`  as a container for the same.
+The `Text Widget` is a child only widget and needs a parent container widget to display itesel. We'll use the widget `Directionality` which determines the text direction as a container widget for the same.
 
-The first line of code is about importing the basic material so that we can can call the `runApp()` function which draws the widget.
+So basically here is how our screen will look like
 
-The function `runApp()` takes a widget, which is created using `new`
+
+The first line of code is about importing the basic material so that we can call the `runApp()` function which draws the widget.
+
+```
+import 'package:flutter/material.dart';
+```
+
+The function `runApp()` takes a widget, which is created using `new` keyword. Let's name the widget as `MyApp`
+
+```
+void main() {
+  runApp(new MyApp());
+}
+
+```
+We will create MyApp as a stateless widget which draws a container called `Directionality' which contains a child widget called 'Text`
+
+```
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Directionality
+      (
+        textDirection: TextDirection.ltr,
+        child: new Text("Hello Flutter")
+    );
+  }
+} 
+
+```
+
+## 1.3: Hello Flutter Code
+
+To draw a widget, `build(...)` function is called and that's why we overwrite the base class function. Whatever widgets we'll create inside this function will be drawn on screen
+
 
 
