@@ -11,3 +11,4 @@ The tutorial is designed in such a way that at the end, you will be able to crea
 Please follow the array of chapters in sequence. Each chapter contains the source code for the topics discussed in that chapter.
 
 ### [Chapter - 0: Background & Introduction](https://github.com/DakshHub/Flutter_MobileApp_Development/tree/master/Chapter-%200)
+### [Chapter - 1: Hello Flutter](https://github.com/DakshHub/Flutter_MobileApp_Development/tree/master/Chapter-%201)
