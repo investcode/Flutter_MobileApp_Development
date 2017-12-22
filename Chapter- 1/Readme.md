@@ -33,7 +33,7 @@ The `Text Widget` is a child only widget and needs a parent container widget to 
 
 So basically here is how our screen will look like
 
-~[Hello Flutter Widget](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/Chapter-%201/Widget%20First.png)
+![Hello Flutter Widget](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/Chapter-%201/Widget%20First.png)
 
 
 The first line of code is about importing the basic material so that we can call the `runApp()` function which draws the widget.
