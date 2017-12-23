@@ -12,3 +12,4 @@ Please follow the array of chapters in sequence. Each chapter contains the sourc
 
 ### [Chapter - 0: Background & Introduction](https://github.com/DakshHub/Flutter_MobileApp_Development/tree/master/Chapter-%200)
 ### [Chapter - 1: Hello Flutter](https://github.com/DakshHub/Flutter_MobileApp_Development/tree/master/Chapter-%201)
+### [Chapter - 2: Creating Application Layouts](https://github.com/DakshHub/Flutter_MobileApp_Development/tree/master/Chapter-%202)
