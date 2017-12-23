@@ -74,6 +74,9 @@ To draw a widget, `build(...)` function is called and that's why we overwrite th
 
 The existing code displays the text in the upper top left corner which is undesirable. To write the text in the center of the screen we need another widget called '`Center` which will contain the `Text` Widget as depicted in the picture below
 
+![Hello Flutter Widget-2](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/Chapter-%201/Widget-2.png
+)
+
 The `build(...)` function after adding the `Center` widget will be changed as
 
 ```
