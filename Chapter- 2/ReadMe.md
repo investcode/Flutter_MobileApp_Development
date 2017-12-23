@@ -45,7 +45,7 @@ In Flutter, there are widget containers which take the array of widgets and thos
 
 Let's display multiple items in display area using `Column`, the arrangement of widgets shall look like
 
-~[](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/Chapter-%202/Chapter%202-1.png)
+![](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/Chapter-%202/Chapter%202-1.png)
 
 And the code changes as 
 
