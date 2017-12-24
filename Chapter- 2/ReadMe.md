@@ -78,3 +78,52 @@ class MyApp extends StatelessWidget {
 
 ```
 
+## 2.2: Creating Parameterized Widgets
+
+For inter-widget communication, we need to create parameterized widgets so that we can pass parameter while creating the same. We've already seen this behavior in inbuilt widgets when we pass a widget in the `child: `, which is a constructor parameter
+
+To create a parameterized widget, we need to create the constructor for the widget.  one thing to note is that all the constructor parameters must be defined as `final`, which means they can't change after instantiation. 
+
+here is how we define the constructor for '`MyApp`
+
+```
+class MyApp extends StatelessWidget {
+// Constructor
+  MyApp({this.firstLine, this.secondLine});
+  final Widget firstLine, secondLine;
+  .....
+```
+
+Once we've defined the constructor, we need to pass those parameters during instantiation. Since we're instantiating `MyApp` inside `runApp(...)` function,  we change the code as
+
+```
+void main() {
+  runApp(new MyApp
+  (
+    firstLine: new Text("Display Line - 1"),
+    secondLine: new Text("Display Line - 2"),
+  ));
+}
+
+```
+
+Now, we have the parameters so we can use the same inside the `MyApp` widget as
+
+```
+   body: new Column
+        (
+          children: <Widget>
+          [
+            this.firstLine,
+            this.secondLine
+          ],
+        )
+
+```
+
+## 2.3: Recap & Conclusion 
+
+In this chapter, we've learned how to create an Application Layout with Application Bar and Body as well as how to create a parameterized widget.
+
+In next chapter, we'll touch upon some more explore more widgets like `button` and `checkbox` to extend the design
+
