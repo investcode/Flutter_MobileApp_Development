@@ -16,17 +16,20 @@ Please follow the array of chapters in sequence. Each chapter contains the sourc
 The tutorial is designed in such a way that at the end, you will be able to create a running ToDo app for Android as well as for iOS. Here is what the layout of the todo app shall look like
 
 #### The Landing Page
-![Landing Page](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/todoAPP_Main_Page.png)
+
+<img src="https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/todoAPP_Main_Page.png" alt="Landing Page" width="200" height="350">
 
 #### Adding a ToDo items
 
-![Adding ToDo](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/todoApp_Add_todo.png)
+<img src="https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/todoApp_Add_todo.png" alt="Adding ToDo" width="200" height="350">
+
 
 #### List of ToDo(s) Added
 
-![Listing ToDo](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/totoApp_todo_Items.png)
+<img src="https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/totoApp_todo_Items.png" alt="Listing ToDo" width="200" height="350">
 
 #### Removing a ToDo Item
 
-![Removing ToDo](https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/todoApp_Remove_Items.png)
+<img src="https://github.com/DakshHub/Flutter_MobileApp_Development/blob/master/todoApp_Remove_Items.png" alt="Removing ToDo" width="200" height="350">
+
 
