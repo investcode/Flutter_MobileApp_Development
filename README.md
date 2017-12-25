@@ -16,6 +16,9 @@ Please follow the array of chapters in sequence. Each chapter contains the sourc
 ### [Chapter - 3: Using Interactive Widgets](https://github.com/DakshHub/Flutter_MobileApp_Development/tree/master/Chapter-%203)
 ### [Chapter - 4: Using Stateful Widgets](https://github.com/DakshHub/Flutter_MobileApp_Development/tree/master/Chapter-%204)
 ### [Chapter - 5: Adding AppBar Actions](https://github.com/DakshHub/Flutter_MobileApp_Development/tree/master/Chapter-%205)
+### [Chapter - 6: Handling User Input](https://github.com/DakshHub/Flutter_MobileApp_Development/tree/master/Chapter-%206)
+
+
 
 # Learning by creating usable application (A ToDo App)
 
