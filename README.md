@@ -2,9 +2,6 @@
 
 __Flutter__ is an SDK which is used for creating Mobile Applications where single source code is used for both Android and iOS using google's __Dart__ Programming Language. More details about this SDK is present at [flutter.io](http://www.flutter.io)
 
-# This tutorial is also available on Youtube 
-
-[Flutter_MobileApp_Development @ YouTube](https://www.youtube.com/watch?v=GH9rQyHbJg0&list=PLunsjeiaxlPKntVvTmQm63zKwKDAq-l1U)
 
 # Flow
 
